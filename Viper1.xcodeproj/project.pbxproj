@@ -13,6 +13,8 @@
 		EC1C0E0A1E6B4CB10001AEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1C0E081E6B4CB10001AEEB /* Main.storyboard */; };
 		EC1C0E0C1E6B4CB10001AEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1C0E0B1E6B4CB10001AEEB /* Assets.xcassets */; };
 		EC1C0E0F1E6B4CB10001AEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1C0E0D1E6B4CB10001AEEB /* LaunchScreen.storyboard */; };
+		EC1C0E181E6B4CE30001AEEB /* Prezenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1C0E171E6B4CE30001AEEB /* Prezenter.m */; };
+		EC1C0E1B1E6B4D930001AEEB /* Interaktor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1C0E1A1E6B4D930001AEEB /* Interaktor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EC1C0E0B1E6B4CB10001AEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1C0E0E1E6B4CB10001AEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1C0E101E6B4CB10001AEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1C0E161E6B4CE30001AEEB /* Prezenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prezenter.h; sourceTree = "<group>"; };
+		EC1C0E171E6B4CE30001AEEB /* Prezenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prezenter.m; sourceTree = "<group>"; };
+		EC1C0E191E6B4D930001AEEB /* Interaktor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interaktor.h; sourceTree = "<group>"; };
+		EC1C0E1A1E6B4D930001AEEB /* Interaktor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interaktor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				EC1C0E021E6B4CB10001AEEB /* AppDelegate.h */,
 				EC1C0E031E6B4CB10001AEEB /* AppDelegate.m */,
+				EC1C0E191E6B4D930001AEEB /* Interaktor.h */,
+				EC1C0E1A1E6B4D930001AEEB /* Interaktor.m */,
+				EC1C0E161E6B4CE30001AEEB /* Prezenter.h */,
+				EC1C0E171E6B4CE30001AEEB /* Prezenter.m */,
 				EC1C0E051E6B4CB10001AEEB /* ViewController.h */,
 				EC1C0E061E6B4CB10001AEEB /* ViewController.m */,
 				EC1C0E081E6B4CB10001AEEB /* Main.storyboard */,
@@ -152,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC1C0E071E6B4CB10001AEEB /* ViewController.m in Sources */,
+				EC1C0E1B1E6B4D930001AEEB /* Interaktor.m in Sources */,
+				EC1C0E181E6B4CE30001AEEB /* Prezenter.m in Sources */,
 				EC1C0E041E6B4CB10001AEEB /* AppDelegate.m in Sources */,
 				EC1C0E011E6B4CB10001AEEB /* main.m in Sources */,
 			);
